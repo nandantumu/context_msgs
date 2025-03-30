@@ -16,6 +16,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Context.msg"
   "msg/ContextStamped.msg"
   "msg/Duration.msg"
+  "msg/DurationList.msg"
+  "msg/ContextDuration.msg"
+  "msg/ContextDurationMap.msg"
   DEPENDENCIES std_msgs
 )
 
