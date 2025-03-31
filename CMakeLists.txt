@@ -23,6 +23,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ParamList.msg"
   "msg/ContextParams.msg"
   "msg/ContextParamMap.msg"
+  "msg/STCombined.msg"
+  "msg/STState.msg"
+  "msg/STControl.msg"
   DEPENDENCIES std_msgs
 )
 
